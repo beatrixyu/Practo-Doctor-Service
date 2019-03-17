@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bootstrap-bulent-homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="w-100">
+    <header class="w-100 row justify-content-between mx-0 font-weight-bolder">
+      <a href="" class="col-1 m-0 p-0"
+        ><img
+          src="practo-logo.jpg"
+          class="w-100 d-flex justify-content-center align-items-center m-0 p-0"
+      /></a>
+      <!-- nav part -->
+      <div class="col-7 row d-flex justify-content-between align-items-center">
+        <div class="font-weight-bold col-3 p-0">
+          <h6>Doctors</h6>
+          <small class="text-secondary ">Book an appointment</small>
+        </div>
+        <div class="font-weight-bold col-3   p-0">
+          <h6>Chat</h6>
+          <small class="text-secondary ">Chat with top doctors</small>
+        </div>
+
+        <div class="font-weight-bold col-3  p-0">
+          <h6>Pharmacy</h6>
+          <small class="text-secondary ">Medicine § health products</small>
+        </div>
+        <div class="font-weight-bold col p-0">
+          <h6>Diagnostics</h6>
+          <small class="text-secondary ">Book tests § checkuos</small>
+        </div>
+      </div>
+      <!-- dropdown button -->
+      <div
+        class="col-4 row d-flex justify-content-between align-items-center text-secondary ml-0"
+      >
+        <div class="col-3 dropdown mx-3 text-secondary p-0">
+          <button
+            class="btn btn-noline-secondary dropdown-toggle p-0 m-0"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <small>For Providers</small>
+          </button>
+          <div class="dropdown-menu"  aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item h6" href="#">Practo Prime</a>
+            <a class="dropdown-item h6" href="#">Software for providers</a>
+            <a class="dropdown-item h6" href="#">Advertisings</a>
+            <a class="dropdown-item h6" href="#">List your practice for free</a>
+          </div>
+        </div>
+        <div
+          class="col-3 dropdown row d-flex justify-content-start align-items-center p-0"
+        >
+          <button
+            class="btn btn-noline-secondary dropdown-toggle p-0 m-0"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+           <small>Security § Help</small> 
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Data Security</a>
+            <a class="dropdown-item" href="#">Help</a>
+          </div>
+        </div>
+        <button class="col-3 btn btn-outline-info ml-3 text-muted color-muted p-0">
+         <small>Login / Signup</small> 
+        </button>
+      </div>
+    </header>
+
+    <!-- main picture part -->
+    <main>
+      <div class="mainText row  bg-primary" style="height: 400px;">
+        <div class="col-5 m-3">
+          <h1 class="text-white font-weight-bold col-11 py-3 ml-4">
+            Talk to a doctor from anywhere
+          </h1>
+          <h4 class="col-11 text-white font-weight-bold py-3 ml-4">
+            Chat with private top doctors, <br />
+            fees starting at $14.99
+            <del class="col-11 text-white font-weight-bold h6">$20.99</del>
+          </h4>
+          <button class="btn btn-info btn-lg py-3 btn-block w-50 ml-4">
+            Chat Now!
+          </button>
+          <h6 class="text-white py-3 ml-4">
+            50,000+ happy users. Privicy Guaranteed
+          </h6>
+        </div>
+        <img
+          src="locating-flow-apartment-app-large.gif"
+          class="col-6 justify-content-end"
+          style="height: 400px;"
+        />
+      </div>
+    </main>
+    <!-- how it works part -->
+    <section class="howWork container-fluid w-100 my-5">
+      <div class="h2 text-black font-weight-bolder m-5 text-center">
+        Here's How it works:
+      </div>
+      <!-- nr.1 -->
+      <section class="row justify-content-between w-100 ">
+        <div class="col-3 text-center mx-4">
+          <div class="row d-flex justify-content-center p-3 text-center">
+            <h1 class="text-info bg-primary font-weight-bolder p-2" style="width: 60px; height: 60px;">1</h1>
+          </div>
+          <h3>Explain your health concern</h3>
+          <h6 class="p-3">
+            This helps us suggest the doctor specializations most suited to
+            address your concern
+          </h6>
+        </div>
+
+        <!-- nr.2 -->
+        <div class="col-3 text-center mx-4">
+          <div class="row d-flex justify-content-center p-3 text-center">
+            <h1 class="text-info bg-primary font-weight-bolder p-2" style="width: 60px; height: 60px;">2</h1>
+          </div>
+          <h3>Always affordable</h3>
+          <h6 class="p-3">
+            Pay up to 50% lesser fees than physical appointment. With fees
+            starting at just $14.99 <del>$20.99</del> Your consultation is
+            always affordable.
+          </h6>
+        </div>
+        <!-- nr.3 -->
+        <div class="col-3 text-center mx-4">
+          <div class="row d-flex justify-content-center p-3 text-center">
+            <h1 class="text-info bg-primary font-weight-bolder p-2" style="width: 60px; height: 60px;">3</h1>
+          </div>
+          <h3>Explain your health concern</h3>
+          <h6 class="p-3">
+            This helps us suggest the doctor specializations most suited to
+            address your concern
+          </h6>
+        </div>
+      </section>
+    </section>
+
+    <!-- get an expert form -->
+    <section class="bg-primary">
+      <!-- search form part  -->
+      <div
+        class="searchForm d-flex justify-content-center text-white font-weight-bolder text-center p-5 row"
+      >
+        <h2 class="col-12 ">Get an exprt opoin on anything:</h2>
+        <input
+          class="form-control form-control-lg col-7 mt-5 p-4 rounded-0"
+          type="text"
+          placeholder="Search by problem or sympton"
+        />
+        <i class="h2 fas fa-search bg-info text-white col-1 mb-0 mt-5 p-2"></i>
+      </div>
+
+      <!-- icon part -->
+      <section
+        class="row mx-5 d-flex w-100 justify-content-center text-center"
+        style="height: 300px"
+      >
+        <!-- leftpart -->
+        <section>
+          <div
+            class="row mt-3 mr-4 p-2 justify-content-start align-items-center"
+          >
+            <i class="fas fa-venus h1 text-white col-1 mr-2"></i>
+            <h5 class="text-white p-2">
+              <u>What causes sagging texticles?</u>
+            </h5>
+          </div>
+          <div
+            class="row mt-3 mr-4 p-2 justify-content-start align-items-center"
+          >
+            <i class="fas fa-female h2 text-white col-1 mr-2"></i>
+            <h5 class="text-white p-2">
+              <u>Medicine to get periods immediately</u>
+            </h5>
+          </div>
+          <div
+            class="row mt-3 mr-4 p-2 justify-content-start align-items-center"
+          >
+            <i class="fas fa-mars h1 text-white col-1 mr-2"></i>
+            <h5 class="text-white p-2">
+              <u>What advise on Men's Sexual Health?</u>
+            </h5>
+          </div>
+        </section>
+        <!-- right part -->
+        <section>
+          <div
+            class="row mt-3 ml-5 p-2 justify-content-start align-items-center"
+          >
+            <i class="fas fa-tooth h2 text-white col-1 mr-2"></i>
+            <h5 class="text-white p-2">
+              <u>Hiccups after wisdom teeth surgery</u>
+            </h5>
+          </div>
+          <div
+            class="row mt-3 ml-5 p-2 justify-content-start align-items-center"
+          >
+            <i class="far fa-tired h2 text-white col-1 mr-2"></i>
+            <h5 class="text-white p-2">
+              <u>Fever only head is hot</u>
+            </h5>
+          </div>
+          <div
+            class="row mt-3 ml-5 p-2 justify-content-start align-items-center"
+          >
+            <i class="far fa-flushed h2 text-white col-1 mr-2"></i>
+            <h5 class="text-white p-2">
+              <u>Trouble with Bruising?</u>
+            </h5>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <!-- Carousel part -->
+    <div class="carousel">
+      <section
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+            style="border-radius: 50%; width: 20px; height: 20px;"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            style="border-radius: 50%; width: 20px; height: 20px; "
+            data-slide-to="1"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="2"
+            style="border-radius: 50%; width: 20px; height: 20px; "
+          ></li>
+        </ol>
+        <div
+          class="carousel-inner pt-5"
+          style="height: 400px;         background-color: lightgrey;"
+        >
+          <h2 class="text-black text-center">
+            Hear what our users have to say
+          </h2>
+
+          <div class="carousel-item active">
+            <div
+              class="d-block w-100 text-black"
+              style="height: 400px; background-color: lightgrey; margin-left: 20%;">
+              <h3 style="padding-top: 5%;">
+                "The respond is very quickly and professional"<br>
+                <div class="row d-flex align-items-center mt-5">
+                            <img src="https://source.unsplash.com/random/50x50" class="rounded-circle mx-3">
+              <h5>Anamik Bajikk</h5>
+              </div>
+              </h3>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item  text-black "
+          >
+            <div
+              class="d-block w-100 text-black"
+              style="height: 400px; background-color: lightgrey;">
+            >
+              <h3 class="text-center" style="padding-top: 5%;">
+                "I got all answers from Practo1 I like to talk with these professional doctors" <br>
+                                <div class="row d-flex align-items-center mt-5" style="margin-left: 15%;">
+                                  <img src="https://source.unsplash.com/random/51x50" class="rounded-circle mx-3">
+
+                <h5>Jasmin Kulun</h5>
+              </h3>
+            </div>
+          </div>
+          <div class="carousel-item text-black text-left">
+            <div
+              class="d-block w-100 text-black"
+              style="height: 500px; background-color: lightgrey; margin-left: 20%;">
+              <h3 style="padding-top: 5%;">
+                "I love this website! I would like to recommend Practo to my friends!"
+              <br>
+                              <div class="row d-flex align-items-center mt-5">
+                                <img src="https://source.unsplash.com/random/50x51" class="rounded-circle mx-3">
+
+              <h5>Jason Simth</h5>
+              </h3>
+
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </section>
+    </div>
+
+    <!-- callapse part -->
+    <section class="row m-2 questions">
+      <!-- left part -->
+      <div class="col-6">
+    <h1 >Let’s clear those doubts</h1>
+    <div class="accordion " id="accordionExample">
+      <div class="card"></div>
+        <div class="card-header bg-white" id="headingOne">
+          <h2 class="mb-0">
+            <button
+              class="btn btn-link text-muted"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+<i class="fas fa-caret-right h4 mr-2 p-2"></i>
+              What happened if I don't get a response?
+            </button>
+          </h2>
+        </div>
+
+        <div
+          id="collapseOne"
+          class="collapse show"
+          aria-labelledby="headingOne"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body mx-5">
+            You are assured a response on Consult, and not just that, most
+            doctors respond within 5 minutes to your consultation. In the super
+            rare case that the doctor doesn't respond at all, the money is
+            automatically refunded to your account.
+          </div>
+        </div>
+      </div>
+      <div class="card  border-right-0 border-left-0 border-top-0 border-bottom-0">
+        <div class="card-header bg-white" id="headingTwo">
+          <h2 class="mb-0">
+            <button
+              class="btn btn-link collapsed text-muted "
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+<i class="fas fa-caret-right h4 mr-2 p-2"></i>
+              Will the doctor be able to solve my medical issue?
+            </button>
+          </h2>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body mx-5">
+            Our doctors will give you a qualified opinion on your health issue and help you identify next steps which may include
+            further tests, a prescription or lifestyle tips. On the off chance that our doctors can’t form a conclusive diagnosis
+            without a physical examination, they will cancel the consultation & refund your money.
+          </div>
+        </div>
+      </div>
+      <div class="card  border-right-0 border-left-0 border-top-0 border-bottom-0">
+        <div class="card-header bg-white" id="headingThree">
+          <h2 class="mb-0">
+            <button
+              class="btn btn-link collapsed text-muted"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+            <i class="fas fa-caret-right h4 mr-2 p-2"></i>
+              What’s your money back policy?
+            </button>
+          </h2>
+        </div>
+        <div
+          id="collapseThree"
+          class="collapse"
+          aria-labelledby="headingThree"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body mx-5">
+         We have a ‘worry-free’ refund policy. If for any reason you’re not satisfied with your online consultation, simply reach
+         out to us on team-consult@practo.com and we’ll refund your money.
+          </div>
+        </div>
+      </div>
+            <div class="card  border-right-0 border-left-0 border-top-0 border-bottom-0">
+              <div class="card-header bg-white" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed text-muted" type="button" data-toggle="collapse"
+                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+<i class="fas fa-caret-right h4 mr-2 p-2"></i>
+                              Are your doctors qualified?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body mx-5">
+                  We have a strict verification process for every doctor on Practo. Any doctor that you consult with is a verified medical
+                  practitioner.
+                </div>
+              </div>
+            </div>
+                  <div class="card  border-right-0 border-left-0 border-top-0 border-bottom-0">
+                    <div class="card-header bg-white" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-muted" type="button" data-toggle="collapse"
+                          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+<i class="fas fa-caret-right h4 mr-2 p-2"></i>
+                                    Is a consultation on Practo private?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body mx-5">
+                      Every consultation on Practo is completely private & confidential. We take your privacy very seriously, and we are
+                      compliant with industry standards to ensure your consultations are securely stored.
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    
+    </div>
+    <!-- right part -->
+    <div class="col-5">
+      <img src="callapse.jpeg">
+    </div>
+    </section>
+<!-- Consult on the go. -->
+    <section class="row">
+<img src="mobile.png" class="col-6" style="height: 500px;">
+<div class="col-6">
+<h1 class="d-flex justify-content-start align-items-center  ml-5">Consult on the go</h1>
+<h6 class="text-secondary d-flex justify-content-start align-items-center ml-5 py-5 w-75">Get Practo app for a seamless online consultation experience and much more.</h6>
+<button class="btn-block btn btn-info btn-lg w-50 ml-5 mb-5 rounded-0">Find out more</button>
+<h5 class="mt-5 ml-5 font-weight-bolder m-2">Download the app here:</h5>
+<div class="row ml-5">
+  <button class="btn-lg btn-dark text-white rounded-0 m-2" >google play</button>
+    <button class="btn-lg btn-dark text-white rounded-0 m-2">apple store</button>
+
+</div>
+
+</div>
+    </section>
+
+<footer class="row bg-primary" >
+  <section class="col-2 text-white" style="font-size: 12px;">
+<h6 class="m-3">Practo</h6>  
+<p class="ml-4">About</p>
+<p class="ml-4">Blog</p>
+<p class="ml-4">Careers</p>
+<p class="ml-4">Press</p>
+<p class="ml-4">Contact</p>
+  </section>
+  <section class="col-2 text-white" style="font-size: 12px;">
+    <h6 class="m-3">Ask free health questions</h6>
+    <p class="mt-1 ml-4">Search for doctors</p>
+    <p class="mt-1 ml-4">Search for clinic</p>
+    <p class="mt-1 ml-4">Search for hospital</p>
+  </section>
+  <section class="col-2 text-white" style="font-size: 12px;">
+    <h6 class="m-3">For doctors</h6>
+    <p class="mt-1 ml-4">Consult</p>
+    <p class="mt-1 ml-4">Health</p>
+    <h6 class="m-3">For doctors</h6>
+    <p class="mt-1 ml-4">Ray</p>
+    <p class="mt-1 ml-4">Ray tab</p>
+  </section>
+  <section class="col-2 text-white" style="font-size: 12px;">
+    <h6 class="m-3">Practo</h6>
+    <p class="mt-1 ml-4">About</p>
+    <p class="mt-1 ml-4">Blog</p>
+    <p class="mt-1 ml-4">Careers</p>
+    <p class="mt-1 ml-4">Press</p>
+    <p class="mt-1 ml-4">Contact</p>
+  </section>
+  <section class="col-2 text-white" style="font-size: 12px;">
+    <h6 class="m-3">Practo</h6>
+    <p class="mt-1 ml-4">About</p>
+    <p class="mt-1 ml-4">Blog</p>
+    <p class="mt-1 ml-4">Careers</p>
+    <p class="mt-1 ml-4">Press</p>
+    <p class="mt-1 ml-4">Contact</p>
+  </section>
+  <section class="col-2 text-white" style="font-size: 12px;">
+    <h6 class="m-3">Practo</h6>
+    <p class="mt-1 ml-4">About</p>
+    <p class="mt-1 ml-4">Blog</p>
+    <p class="mt-1 ml-4">Careers</p>
+    <p class="mt-1 ml-4">Press</p>
+    <p class="mt-1 ml-4">Contact</p>
+  </section>
+
+
+</footer>
+
+    <!-- bootstrap part -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

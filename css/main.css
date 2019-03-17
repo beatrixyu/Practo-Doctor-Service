@@ -1,0 +1,21 @@
+header {
+  height: 100px;
+  width: 100%;
+}
+header a {
+  height: 50px;
+}
+
+main {
+  width: 100%;
+}
+main .h-300px {
+  height: 300px;
+}
+
+.carousel h1 {
+  position: absolute;
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */

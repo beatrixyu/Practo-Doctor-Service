@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+}
+header {
+  height: 100px;
+  width: 100%;
+  img {
+    height: 50px;
+    width: 100px;
+  }
+}
+.questions text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 19px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid #414146;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.carousel {
+  h2 {
+    position: absolute;
+    margin-top: 40px;
+  }
+}
